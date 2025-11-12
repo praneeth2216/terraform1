@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_DEFAULT_REGION = 'us-east-1'
+        AWS_DEFAULT_REGION = 'us-east-2'
         TF_VERSION = '1.6.0'
         TF_HOME = '/usr/local/bin'
         // Jenkins credentials ID containing AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
